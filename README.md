@@ -122,7 +122,7 @@ cp .env.example .env
 Edit the `.env` file with your credentials:
 ```env
 GEMINI_API_KEY=your_google_gemini_api_key
-GEMINI_MODEL=gemini-2.5-flash
+GEMINI_MODEL=gemini-flash-latest
 
 # (Optional) Local Lamini Endpoint Config
 LAMINI_LOCAL_URL=http://127.0.0.1:8001/v1/generate
